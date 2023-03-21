@@ -170,13 +170,7 @@ class _LoginPageState extends State<LoginPage> {
                                 );
                               }
 
-                              // Navigate to next screen
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => WelcomeScreen(),
-                                ),
-                              );
+                             
                             }
                                 : null,
                             style: ElevatedButton.styleFrom(
